@@ -1,0 +1,20 @@
+// IMPORT FONTS & VARIABLES
+@import "../utilities/variables";
+
+.bigTitle {
+    padding-top: 15em;
+    padding-bottom: 15em;
+    text-align: center;
+}
+
+.bigTitle img {
+    width: 60%;
+}
+
+.bigTitle h2 {
+    margin-top: -0.2em;
+    color: $font-color;
+    font-family: $secondary-font-family;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+}

@@ -1,0 +1,14 @@
+// IMPORT SECTIONS
+@import "../scss/sections/index";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bigTitle {
+    background-image: url(../img/restobackground.jpg);
+    background-position: center;
+    background-size: cover;
+}

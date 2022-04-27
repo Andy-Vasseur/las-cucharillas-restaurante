@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.29);
+  opacity: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+nav a {
+  color: #FFF;
+  padding: 0.2em;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #FFCB74;
+  border-radius: 0.3em;
+}
+
+nav a.active {
+  border-bottom: 2px solid white;
+  border-radius: 0.2em;
+}
+
+.bigTitle {
+  padding-top: 15em;
+  padding-bottom: 15em;
+  text-align: center;
+}
+
+.bigTitle img {
+  width: 60%;
+}
+
+.bigTitle h2 {
+  margin-top: -0.2em;
+  color: #FFF;
+  font-family: "Poiret One", cursive;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bigTitle {
+  background-image: url(../img/restobackground.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=all.css.map */
