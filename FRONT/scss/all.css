@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 .centered {
   position: fixed;
   top: 50%;
@@ -104,6 +108,91 @@ nav a.active {
   font-family: "Poiret One", cursive;
   font-weight: lighter;
   letter-spacing: 0.2em;
+}
+
+.quisommesnous {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1em;
+  color: #FFF;
+  background-color: #121212;
+}
+
+.quisommesnous img {
+  width: 38%;
+}
+
+.quisommesnous div {
+  width: 48%;
+}
+
+.quisommesnous div h2 {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "Poiret One", cursive;
+}
+
+.quisommesnous div p {
+  margin-bottom: 2em;
+  font-size: 1.1rem;
+  line-height: 2em;
+  font-family: "Raleway", sans-serif;
+}
+
+.quisommesnous a {
+  margin-left: 85%;
+  padding: 0.3em;
+  color: #FFCB74;
+  font-size: 1rem;
+  border-radius: 0.4em;
+  -webkit-text-decoration: 2px solid white;
+          text-decoration: 2px solid white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.quisommesnous a:hover {
+  color: #FFF;
+  background-color: #FFCB74;
+}
+
+.notesRestaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.notesClients {
+  width: 48%;
+  background-color: purple;
+}
+
+.notesClients p {
+  font-size: 1.1rem;
+}
+
+.tripAdvisor {
+  padding: 0.5em;
+  width: 48%;
+  text-align: center;
+  background-color: green;
+}
+
+.tripAdvisor img {
+  width: 25%;
 }
 
 html,

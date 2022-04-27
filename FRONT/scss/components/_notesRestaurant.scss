@@ -1,0 +1,28 @@
+// IMPORT FONTS & VARIABLES
+@import "../utilities/variables";
+
+.notesRestaurant {
+    display: flex;
+    justify-content: space-around;
+}
+
+.notesClients {
+    width: 48%;
+    background-color: purple;
+}
+
+.notesClients p {
+    margin: ;
+    font-size: 1.1rem;
+}
+
+.tripAdvisor {
+    padding: 0.5em;
+    width: 48%;
+    text-align: center;
+    background-color: green;
+}
+
+.tripAdvisor img {
+    width: 25%;
+}
