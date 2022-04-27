@@ -1,0 +1,43 @@
+// IMPORT FONTS & VARIABLES
+@import "../utilities/variables";
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+    color: $font-color;
+}
+
+.titleIndex {
+    font-size: 2.7rem;
+    font-family: $secondary-font-family;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.centered p {
+    display: block;
+    position: relative;
+    font-size: 1.5rem;
+    font-family: $primary-font-family;
+}
+
+.centered a {
+    font-size: 1.4rem;
+    color: $font-color;
+    text-decoration: none;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    letter-spacing: 4px;
+    font-family: $secondary-font-family;
+    transition: all 0.3s ease-in-out;
+}
+
+.centered a:hover {
+    text-decoration: underline 2px;
+    text-underline-offset: 0.4em;
+}
