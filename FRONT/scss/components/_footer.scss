@@ -1,0 +1,61 @@
+@import "../utilities/variables";
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    color: $font-color;
+    background-color: #121212;
+    font-family: $primary-font-family;
+}
+
+.bolded {
+    font-weight: bold
+}
+
+.left div:nth-child(1) p:nth-child(1) {
+    font-weight: bold;
+}
+
+.left div:nth-child(2) {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle a {
+    padding: 0.6em 1em;
+    color: $font-color;
+    text-decoration: none;
+    background-color: orange;
+    letter-spacing: 3px;
+}
+
+.middle a:hover {
+    text-decoration: underline 1px #FFF;
+    text-underline-offset: 0.3em;
+}
+
+.middle p:nth-child(2) {
+    margin-top: 2em;
+}
+
+.right > div > a {
+    color: $font-color;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0.2em;
+    border: 2px solid #FFF;
+    border-radius: 20%;
+}
+
+.right > p {
+    width: 55%;
+    direction: rtl;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}

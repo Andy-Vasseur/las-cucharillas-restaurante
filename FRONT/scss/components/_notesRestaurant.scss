@@ -8,21 +8,39 @@
 
 .notesClients {
     width: 48%;
-    background-color: purple;
+    font-family: $primary-font-family;
 }
 
 .notesClients p {
-    margin: ;
-    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.notesClients p:nth-child(1) {
+    margin-top: 2.5em;
 }
 
 .tripAdvisor {
     padding: 0.5em;
     width: 48%;
     text-align: center;
-    background-color: green;
 }
 
 .tripAdvisor img {
-    width: 25%;
+    width: 20%;
+    transition: transform 300ms ease-in-out;
+}
+
+.tripAdvisor img:hover {
+    transform: scale(1.05);
+}
+
+.tripAdvisor p {
+    margin-top: 0.3em;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: $secondary-font-family;
+    text-decoration: underline 1px #000;
+    text-underline-offset: 0.2em;
 }

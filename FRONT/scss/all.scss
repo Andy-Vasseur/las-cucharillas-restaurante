@@ -8,6 +8,12 @@ body {
     padding: 0;
 }
 
+span {
+    color: orange;
+    font-weight: bolder;
+    font-family: $secondary-font-family;
+}
+
 .bg {
     background-image: url(../img/restobackground.jpg);
     background-position: center;

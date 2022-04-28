@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 .centered {
   position: fixed;
   top: 50%;
@@ -177,28 +179,123 @@ nav a.active {
 
 .notesClients {
   width: 48%;
-  background-color: purple;
+  font-family: "Raleway", sans-serif;
 }
 
 .notesClients p {
-  font-size: 1.1rem;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.notesClients p:nth-child(1) {
+  margin-top: 2.5em;
 }
 
 .tripAdvisor {
   padding: 0.5em;
   width: 48%;
   text-align: center;
-  background-color: green;
 }
 
 .tripAdvisor img {
-  width: 25%;
+  width: 20%;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+
+.tripAdvisor img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.tripAdvisor p {
+  margin-top: 0.3em;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Poiret One", cursive;
+  -webkit-text-decoration: underline 1px #000;
+          text-decoration: underline 1px #000;
+  text-underline-offset: 0.2em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4em;
+  color: #FFF;
+  background-color: #121212;
+  font-family: "Raleway", sans-serif;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.left div:nth-child(1) p:nth-child(1) {
+  font-weight: bold;
+}
+
+.left div:nth-child(2) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.middle {
+  text-align: center;
+}
+
+.middle a {
+  padding: 0.6em 1em;
+  color: #FFF;
+  text-decoration: none;
+  background-color: orange;
+  letter-spacing: 3px;
+}
+
+.middle a:hover {
+  -webkit-text-decoration: underline 1px #FFF;
+          text-decoration: underline 1px #FFF;
+  text-underline-offset: 0.3em;
+}
+
+.middle p:nth-child(2) {
+  margin-top: 2em;
+}
+
+.right > div > a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 0.2em;
+  border: 2px solid #FFF;
+  border-radius: 20%;
+}
+
+.right > p {
+  width: 55%;
+  direction: rtl;
+  line-height: 1.5em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+span {
+  color: orange;
+  font-weight: bolder;
+  font-family: "Poiret One", cursive;
 }
 
 .bg {
