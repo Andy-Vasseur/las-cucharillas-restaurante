@@ -4,17 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- GOOGLE FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- ROBOTO CONDENSED FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <!-- ITALIANA -->
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-    <!-- INCONSOLATA -->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet"> 
-    <!-- REMIX ICON -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- FEUILLE DE STYLES CSS -->
     <link rel="stylesheet" href="../scss/all.css">
     <title>Las Cucharillas - Contact</title>
@@ -25,7 +14,7 @@
     <!--? NAVBAR -->
     <nav>
         <ul>
-            <li><a href="../pages/index.html">Accueil</a></li>
+            <li><a href="../pages/accueil.html">Accueil</a></li>
             <li><a href="../pages/restaurant.html">Notre restaurant</a></li>
             <li><a href="#">Nos recettes</a></li>
             <li><a href="#">Livre d'Or</a></li>
@@ -35,24 +24,33 @@
     </nav>
 
     <!--? BIG TITLE -->
-    <div class="bigTitle">
+    <div class="michael">
         <h1>Contact</h1>
     </div>
 
     <!--? FORMULAIRE DE CONTACT -->
-    <form action="../php/contact.php" method="post">
+    <div class="formulaire">
+        <form action="../php/contact.php" method="post">
+            <div>
+                <label for="clientEmail">Votre email :</label>
+                <input type="email" name="email" id="clientEmail">
+            </div>
+            <div>
+                <label for="clientMessage">Votre message :</label>
+                <input type="text" name="message" id="clientMessage">
+            </div>
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </div>
+
+    <!--? NOTRE LOCALISATION -->
+    <div class="notreLocalisation">
         <div>
-            <label for="clientEmail">Votre email :</label>
-            <input type="email" name="email" id="clientEmail">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.831111754383!2d-122.24962528491932!3d37.86424196478059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857c3495516ce7%3A0x15a3108bbc2b1a81!2s2601%20Horseshoe%20Driveway%2C%20Berkeley%2C%20CA%2094720%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1651426438299!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div>
-            <label for="clientMessage">Votre message :</label>
-            <input type="text" name="message" id="clientMessage">
-        </div>
-        <div>
-            <button type="submit">Envoyer</button>
-        </div>
-    </form>
+    </div>
 
     <!--? FOOTER -->
     <footer>
@@ -77,7 +75,7 @@
             <p>Take-out & Dine-in (daily): 11am - 3pm</p>
             <p><span class="boldeur">Dinner</span></p>
             <p>Indoor dinning (daily): 4pm - 10pm</p>
-            <p>Outdoor dinning -Thur - Sun): 4pm - 10pm</p>
+            <p>Outdoor dinning (Thur - Sun): 4pm - 10pm</p>
             <p>Happy Hour (Mon - Fri): 4pm - 6pm</p>
         </div>
 

@@ -11,7 +11,14 @@
     width: 60%;
 }
 
-.bigTitle h2 {
+.bigTitle h1 {
+    color: $font-color;
+    font-family: $secondary-font-family;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+}
+
+.bigTitle h3 {
     margin-top: -0.2em;
     color: $font-color;
     font-family: $secondary-font-family;

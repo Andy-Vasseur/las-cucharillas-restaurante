@@ -1,0 +1,15 @@
+// IMPORT VARIABLES
+@import "../utilities/variables";
+
+.formulaire form {
+    background-color: #121212;
+}
+
+.formulaire label,
+.formulaire input {
+    color: $primary-font-color;
+}
+
+.formulaire label {
+    font-family: $primary-font-family;
+}
